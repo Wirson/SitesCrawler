@@ -1,0 +1,12 @@
+{
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.6",
+        "symfony/console": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Console\\": "src"
+        },
+        "classmap": ["src"]
+    }
+}
